@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificación de Firma</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            margin-top: 20px;
+        }
+
+        h1.title {
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 25px;
+            color: #111111;
+        }
+
+        .header-bar {
+            background-color: #004080;
+            color: #ffffff;
+            font-size: 22px;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            border-radius: 2px;
+            margin-bottom: 30px;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .data-table tr {
+            height: 60px;
+        }
+
+        .data-table td {
+            vertical-align: top;
+            font-size: 18px;
+        }
+
+        .label {
+            font-weight: bold;
+            width: 40%;
+            padding-right: 10px;
+            color: #000000;
+        }
+
+        .value {
+            font-weight: bold;
+            width: 60%;
+            color: #000000;
+            word-break: break-word;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">Verificación de Firma</h1>
+
+        <div class="header-bar">
+            Datos del Documento
+        </div>
+
+        <table class="data-table">
+            <tr>
+                <td class="label">Documento:</td>
+                <td class="value">PCDTT-IHTT-T-004941-2026</td>
+            </tr>
+            <tr>
+                <td class="label">Usuario:</td>
+                <td class="value">laguilar</td>
+            </tr>
+            <tr>
+                <td class="label">Fecha Elaboración:</td>
+                <td class="value">
+                    27/08/2026 10:08:02 a. m.
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
